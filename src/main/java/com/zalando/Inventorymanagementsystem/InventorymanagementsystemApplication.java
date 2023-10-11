@@ -28,11 +28,11 @@ public class InventorymanagementsystemApplication {
         List<ElectronicItem> electronicItems =electronicItemInventory.getItems();
         System.out.println("Food Inventory Item");
         for (FoodItem food : foodItems){
-            System.out.println(food.getName()+" :$"+foodItems);
+            System.out.println(food.getName());
 
             System.out.println("Electronic item");
             for (ElectronicItem electronicItem : electronicItems){
-                System.out.println(electronicItem.getName()+ electronicItem);
+                System.out.println(electronicItem.getName());
             }
         }
 
